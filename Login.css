@@ -1,0 +1,126 @@
+.pic{
+    background-image: url(/public/LOGO.jpg);
+    background-size: cover; /* Ensures the image covers the whole container */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  min-height: 100vh; /* Makes the container at least the height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.card {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.form-control {
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-weight: 500;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-outline-secondary {
+  border-color: #ced4da;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.input-group .form-control {
+  border-right: none;
+}
+
+.input-group .btn {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.login-container .card {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container .card-body {
+  padding: 3rem;
+}
+
+.login-container h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.login-container .form-control::placeholder {
+  color: #adb5bd;
+}
+
+.login-container .form-control.is-invalid {
+  border-color: #dc3545;
+  background-image: none;
+  margin-bottom: 0;
+}
+
+.login-container .invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 2rem !important;
+  }
+  
+  .login-container h2 {
+    font-size: 28px;
+    margin-bottom: 2rem;
+  }
+}

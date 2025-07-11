@@ -1,0 +1,24 @@
+.signup-container {
+  margin-top: 80px;
+  padding-top: 20px;
+}
+
+.signup-container .card {
+  margin-bottom: 30px;
+}
+
+.signup-container .form-label {
+  font-weight: 500;
+}
+
+.signup-container .form-text {
+  font-size: 0.85rem;
+}
+
+.signup-container .form-check-label {
+  cursor: pointer;
+}
+
+.signup-container .btn-primary {
+  padding: 10px 20px;
+} 
